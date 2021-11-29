@@ -1,0 +1,28 @@
+/****** Utilities *******/
+@import "/ui-utilities-master/variables";
+@import "/ui-utilities-master/placeholders";
+@import "/ui-utilities-master/functions";
+@import "/ui-utilities-master/mixins";
+
+/******* Global CSS *******/
+/******* mods to base code or main.css ********/
+
+/******* Modules *******/
+
+/******** Pages ********/
+@import "pages/*";
+
+
+
+
+/****** Custom Typography ********/
+@font-face {
+  font-family: 'honest-designer';
+  src: local('honest-designer');
+  src: url("https://www.weber.edu/wsuimages/ever-upward/fonts/honestscript-regular-webfont.woff2") format("woff2"),/* Modern Browsers */
+  url("https://www.weber.edu/wsuimages/ever-upward/fonts/honestscript-regular-webfont.woff") format("woff");/* Modern Browsers */
+  unicode-range: U+0020-007E;
+  font-weight: 700;
+  font-style: normal;
+  font-display: block;
+}

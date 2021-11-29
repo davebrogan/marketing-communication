@@ -1,0 +1,9 @@
+# external css links:
+
+<link rel="stylesheet" href="https://apps.weber.edu/wsuimages/davidbrogan/wsu-body-ui/css/ui-global-styles.css" />
+<link rel="stylesheet" href="https://apps.weber.edu/wsuimages/davidbrogan/wsu-body-ui/css/ui-mod-base.css" />
+
+# minified
+
+<link rel="stylesheet" href="https://apps.weber.edu/wsuimages/davidbrogan/wsu-body-ui/css/ui-global-styles-min.css" />
+<link rel="stylesheet" href="https://apps.weber.edu/wsuimages/davidbrogan/wsu-body-ui/css/ui-mod-base-min.css" />

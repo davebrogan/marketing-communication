@@ -1,0 +1,40 @@
+.student-perspective {
+    padding: 25px 0;
+}
+.student-perspective__head-shot {
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width: 480px) {
+    .student-perspective__head-shot {
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .student-perspective__content {
+        text-align: center;
+    }
+}
+
+.circle-image {
+    margin: 30px;
+    -webkit-shape-outside: circle(50%);
+    shape-outside: circle(50%);
+}
+.circle-image__picture-element__image {
+    width: 100%;
+    border-radius: 50%;
+}
+.circle-image--left {
+    float: left;
+}
+.circle-image--right {
+    float: right;
+}
+.circle-image--small-head-shot {
+    border-radius: 50%;
+    border: solid 4px #FFFFFF;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    width: 150px;
+    margin: 15px;
+}
