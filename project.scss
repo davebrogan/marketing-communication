@@ -1,8 +1,8 @@
 /****** Utilities *******/
-@import "/ui-utilities-master/variables";
-@import "/ui-utilities-master/placeholders";
-@import "/ui-utilities-master/functions";
-@import "/ui-utilities-master/mixins";
+@import "./ui-utilities-master/variables";
+@import "./ui-utilities-master/placeholders";
+@import "./ui-utilities-master/functions";
+@import "./ui-utilities-master/mixins";
 
 /******* Global CSS *******/
 /******* mods to base code or main.css ********/
@@ -10,7 +10,27 @@
 /******* Modules *******/
 
 /******** Pages ********/
-@import "pages/*/*.scss";
+.banner {
+  &--marcomm-home {
+    @include bg-interchange-retina('https://www.weber.edu/wsuimages/marketing-communications/banners/marcomm-home-banner-placeholder-1x.jpg');
+    @include bg-img-placement(center, top);
+  }
+}
+
+.home-content {
+  &--square {
+    &-text {
+      display: flex;
+      justify-content: center;
+      @include flex-row(center, center);
+      padding: 5em;
+      font-family: $font-tg;
+      font-size: 1.5em;
+    }
+  }
+}
+
+//@import "pages/*";
 
 
 
