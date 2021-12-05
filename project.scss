@@ -18,14 +18,24 @@
 }
 
 .home-content {
-  &--square {
+  &__row {
+    margin-bottom: 162px;
+  }
+  &__square {
     &-text {
-      display: flex;
-      justify-content: center;
       @include flex-row(center, center);
-      padding: 5em;
+      //padding: 5em;
       font-family: $font-tg;
       font-size: 1.5em;
+      &--right {
+        justify-content: flex-end;
+      }
+      &--left {
+        justify-content: flex-start;
+      }
+      p {
+        max-width: 400px;
+      }
     }
   }
 }
