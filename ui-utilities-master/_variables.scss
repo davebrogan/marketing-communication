@@ -402,7 +402,7 @@ $target-tablet-under: "only screen and (max-width: " + $break-tablet-under + ")"
 $target-tablet: "only screen and (max-width: " + $break-tablet + ")";
 $target-phone-tablet-range: "only screen and (min-width: " + $break-large-phone + ") and ( max-width: " $break-laptop-under + ")";
 $target-tablet-range: "only screen and (min-width: " + $break-tablet + ") and (max-width: " + $break-laptop-under + ")";
-$target-tablet-over: "only screen and (min-width: " + $break-tablet + ")";
+$target-tablet-over: "only screen and (min-width: " + $break-tablet-over + ")";
 $target-laptop-under: "only screen and (max-width: " + $break-laptop-under + ")";
 $target-laptop: "only screen and (max-width: " + $break-laptop + ")";
 $target-laptop-over: "only screen and (min-width: " + $break-laptop-over + ")";
