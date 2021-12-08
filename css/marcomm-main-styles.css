@@ -1,6 +1,11 @@
 /****** Utilities *******/
 /******* Global CSS *******/
 /******* mods to base code or main.css ********/
+.best-practice-icon {
+  width: 30px;
+  margin-right: 10px;
+}
+
 /******* Modules *******/
 /******** Pages ********/
 .banner--marcomm-home {
@@ -34,6 +39,10 @@
   font-family: "tradegothiclt", sans-serif;
   font-size: 1.5em;
 }
+.home-content__square-text p {
+  text-align: center;
+  max-width: 400px;
+}
 @media only screen and (min-width: 769px) {
   .home-content__square-text--right {
     justify-content: flex-end;
@@ -47,7 +56,12 @@
 }
 @media only screen and (min-width: 769px) {
   .home-content__square-text--right__content {
-    align-items: flex-start;
+    align-items: flex-end;
+  }
+}
+@media only screen and (min-width: 769px) and (min-width: 769px) {
+  .home-content__square-text--right__content p {
+    text-align: left;
   }
 }
 @media only screen and (min-width: 769px) {
@@ -63,12 +77,26 @@
 }
 @media only screen and (min-width: 769px) {
   .home-content__square-text--left__content {
-    justify-content: flex-end;
+    align-items: flex-start;
   }
 }
-.home-content__square-text p {
-  text-align: center;
-  max-width: 400px;
+@media only screen and (min-width: 769px) and (min-width: 769px) {
+  .home-content__square-text--left__content p {
+    text-align: left;
+  }
+}
+
+/******************** WEB ***********************/
+.banner--marcomm-web {
+  background-image: url("https://www.weber.edu/wsuimages/marketing-communications/banners/marcomm-home-banner-placeholder-1x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+@media only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
+  .banner--marcomm-web {
+    background-image: url("https://www.weber.edu/wsuimages/marketing-communications/banners/marcomm-home-banner-placeholder-2x.jpg");
+  }
 }
 
 /****** Custom Typography ********/

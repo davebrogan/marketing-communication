@@ -6,7 +6,10 @@
 
 /******* Global CSS *******/
 /******* mods to base code or main.css ********/
-
+.best-practice-icon {
+  width: 30px;
+  margin-right: 10px;
+}
 /******* Modules *******/
 
 /******** Pages ********/
@@ -31,6 +34,10 @@
       //padding: 5em;
       font-family: $font-tg;
       font-size: 1.5em;
+      p {
+        text-align: center;
+        max-width: 400px;
+      }
       &--right {
         @media #{$target-tablet-over} {
           justify-content: flex-end;
@@ -41,7 +48,12 @@
           flex-direction: column;
           align-items: center;
           @media #{$target-tablet-over} {
-            align-items: flex-start;
+            align-items: flex-end;
+            p {
+              @media #{$target-tablet-over} {
+                text-align: left;
+              }
+            }
           }
         }
       }
@@ -55,17 +67,28 @@
           flex-direction: column;
           align-items: center;
           @media #{$target-tablet-over} {
-            justify-content: flex-end;
+            align-items: flex-start;
+            p {
+              @media #{$target-tablet-over} {
+                text-align: left;
+              }
+            }
           }
         }
-      }
-      p {
-        text-align: center;
-        max-width: 400px;
       }
     }
   }
 }
+
+/******************** WEB ***********************/
+.banner--marcomm-web {
+  @include bg-interchange-retina('https://www.weber.edu/wsuimages/marketing-communications/banners/marcomm-home-banner-placeholder-1x.jpg');
+  @include bg-img-placement(center, top);
+}
+
+
+
+
 
 //@import "pages/*";
 
