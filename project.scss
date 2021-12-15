@@ -11,6 +11,63 @@
   margin-right: 10px;
 }
 /******* Modules *******/
+.image-button {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.image-button__link {
+  display: flex;
+  position: relative;
+  z-index: 1;
+  color: #FFF !important;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  font-family: 'tradegothiclt-bold', sans-serif;
+  font-size: 1.3em;
+  transition: all 0.3s !important;
+  text-transform: uppercase;
+  padding: 2em;
+  &--announcements {
+    background-image: url('https://www.weber.edu/wsuimages/marketing-communications/images/communication-image-links-announcemencts-2x.jpg');
+  }
+  &--guidelines {
+    background-image: url('https://www.weber.edu/wsuimages/marketing-communications/images/communication-image-links-guidelines-2x.jpg');
+  }
+  &--tips {
+    background-image: url('https://www.weber.edu/wsuimages/marketing-communications/images/communication-image-links-tips-2x.jpg');
+  }
+  &:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    content: '';
+    transition: all 0.3s;
+    background-color: rgba(73, 35, 101, 0.6);
+  }
+  &:hover {
+    transform: scale(1.05);
+  }
+  &:hover:before {
+    background-color: rgba(132,70,172, 0.6);
+  }
+}
+
+
+
+
+
 
 /******** Pages ********/
 .banner {
