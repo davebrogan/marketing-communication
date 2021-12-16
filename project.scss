@@ -45,6 +45,12 @@
   &--tips {
     background-image: url('https://www.weber.edu/wsuimages/marketing-communications/images/communication-image-links-tips-2x.jpg');
   }
+  &--social-media {
+    background-image: url('https://www.weber.edu/wsuimages/marketing-communications/images/social-media-image-links-social-icons-2x.jpg');
+  }
+  &--get-started {
+    background-image: url('https://www.weber.edu/wsuimages/marketing-communications/images/social-media-image-links-get-started-2x.jpg');
+  }
   &:before {
     position: absolute;
     top: 0;
@@ -142,8 +148,6 @@
   @include bg-interchange-retina('https://www.weber.edu/wsuimages/marketing-communications/banners/marcomm-home-banner-placeholder-1x.jpg');
   @include bg-img-placement(center, top);
 }
-
-
 
 
 

@@ -42,6 +42,12 @@
 .image-button__link--tips {
   background-image: url("https://www.weber.edu/wsuimages/marketing-communications/images/communication-image-links-tips-2x.jpg");
 }
+.image-button__link--social-media {
+  background-image: url("https://www.weber.edu/wsuimages/marketing-communications/images/social-media-image-links-social-icons-2x.jpg");
+}
+.image-button__link--get-started {
+  background-image: url("https://www.weber.edu/wsuimages/marketing-communications/images/social-media-image-links-get-started-2x.jpg");
+}
 .image-button__link:before {
   position: absolute;
   top: 0;
