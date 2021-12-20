@@ -6,6 +6,11 @@
 
 /******* Global CSS *******/
 /******* mods to base code or main.css ********/
+.-no-side-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .best-practice-icon {
   width: 30px;
   margin-right: 10px;
@@ -149,7 +154,14 @@
   @include bg-img-placement(center, top);
 }
 
+/********************** PUBLICATIONS ******************/
+.card-marcomm-pub .card-module__header {
+  background-color: #FFF;
+}
 
+.card-module.card-marcomm-pub {
+  padding-bottom: 0;
+}
 
 //@import "pages/*";
 
