@@ -73,14 +73,25 @@
 
 /******** Pages ********/
 .banner--marcomm-home {
-  background-image: url("https://www.weber.edu/wsuimages/marketing-communications/banners/marcomm-home-banner-placeholder-1x.jpg");
+  background-image: url("https://www.weber.edu/wsuimages/marketing-communications/banners/full-product-collage-2x.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center top;
+  background-position: center center;
 }
 @media only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
   .banner--marcomm-home {
-    background-image: url("https://www.weber.edu/wsuimages/marketing-communications/banners/marcomm-home-banner-placeholder-2x.jpg");
+    background-image: url("https://www.weber.edu/wsuimages/marketing-communications/banners/full-product-collage-2x.jpg");
+  }
+}
+.banner--marcomm-web {
+  background-image: url("https://www.weber.edu/wsuimages/marketing-communications/banners/web-banner-1x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+@media only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
+  .banner--marcomm-web {
+    background-image: url("https://www.weber.edu/wsuimages/marketing-communications/banners/web-banner-2x.jpg");
   }
 }
 

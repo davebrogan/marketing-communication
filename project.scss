@@ -83,8 +83,12 @@
 /******** Pages ********/
 .banner {
   &--marcomm-home {
-    @include bg-interchange-retina('https://www.weber.edu/wsuimages/marketing-communications/banners/marcomm-home-banner-placeholder-1x.jpg');
-    @include bg-img-placement(center, top);
+    @include bg-interchange-retina('https://www.weber.edu/wsuimages/marketing-communications/banners/full-product-collage-2x.jpg');
+    @include bg-img-placement(center, center);
+  }
+  &--marcomm-web {
+    @include bg-interchange-retina('https://www.weber.edu/wsuimages/marketing-communications/banners/web-banner-1x.jpg');
+    @include bg-img-placement(center, center);
   }
 }
 
